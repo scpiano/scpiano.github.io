@@ -36,3 +36,25 @@ body {
    min-height: 100%;
    width: 100%;
 }
+
+html,body{
+  margin:0;
+  overflow:hidden;
+  height:100%
+}
+img{
+  width:100%;
+  max-width:250px;
+  position:absolute;
+  top:45%;
+  left:0;
+  right:0;
+  margin:0 auto
+}
+	.large-header {
+	background:linear-gradient(to bottom, #0a1535 0%,#103566 37%,#163a75 61%,#0c528e 100%);
+    text-align:center
+	}
+#x-canvas{
+  opacity:0.5
+}
