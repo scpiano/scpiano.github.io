@@ -9,7 +9,14 @@ body {
    margin: 0px;
    min-height: 100%;
    width: 100%;
+	
+background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/130527/svg-background.svg);
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
 }
+
 
 h1 {
     font-family: 'Pacifico', cursive;
