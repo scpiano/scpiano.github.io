@@ -207,3 +207,15 @@ h1 {
     -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 }
 
+/* Images and Placements */
+
+a1 {      /* rectangle */
+	width: 200px;
+	height: 100px;
+	background: black;
+}
+a1 div {
+	position: relative;
+	top: -100px;
+}
+
