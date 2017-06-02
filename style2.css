@@ -212,19 +212,14 @@ h1 {
 h1 {      /* rectangle */
 	width: 300px;
 	height: 130px;
+	text-align: center;
+	position: relative;
+	margin: auto;
 	background: black;
 }
 h1 div {
 	position: relative;
 	text-align: center;
-}
-
-.wrap {
-    width: 1060px;
-    height:auto;
-    margin: auto;
-    text-align:center;
-    position:relative;
 }
 
 .text_over_image {
