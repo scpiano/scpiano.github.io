@@ -210,8 +210,8 @@ h1 {
 /* Images and Placements */
 
 h1 {      /* rectangle */
-	width: 300px;
-	height: 200px;
+	width: 200px;
+	height: 100px;
 	background: black;
 }
 h1 div {
