@@ -239,3 +239,14 @@ h6 {      /* rectangle */
     color:#fff;
     height:65px;
 }
+
+.text_over_image2 {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left:0;
+    right:0;
+    bottom:0;
+    color:#fff;
+    height:15px;
+}
