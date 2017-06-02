@@ -216,6 +216,6 @@ h1 {      /* rectangle */
 }
 h1 div {
 	position: relative;
-	top: -65px;
+	top: 65px;
 }
 
