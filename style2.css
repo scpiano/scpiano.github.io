@@ -209,12 +209,12 @@ h1 {
 
 /* Images and Placements */
 
-a1 {      /* rectangle */
+h1 {      /* rectangle */
 	width: 200px;
 	height: 100px;
 	background: black;
 }
-a1 div {
+h1 div {
 	position: relative;
 	top: -100px;
 }
