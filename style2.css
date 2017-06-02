@@ -198,7 +198,7 @@ h6 {      /* rectangle */
 	border: 0;
 	margin: 0;
 	width: 300px;
-	height: 15px;
+	height: 20px;
 	position: relative;
 	background: black;
 }
@@ -222,5 +222,5 @@ h6 {      /* rectangle */
     right:0;
     bottom:0;
     color:#fff;
-    height:7.5px;
+    height:10px;
 }
