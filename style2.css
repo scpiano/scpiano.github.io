@@ -211,11 +211,11 @@ h1 {
 
 h1 {      /* rectangle */
 	width: 300px;
-	height: 100px;
+	height: 200px;
 	background: black;
 }
 h1 div {
 	position: relative;
-	top: -100px;
+	top: -150px;
 }
 
