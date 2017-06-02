@@ -230,10 +230,7 @@ h6 {      /* rectangle */
 	margin: auto;
 	background: black;
 }
-h6 div {
-	position: relative;
-	text-align: center;
-}
+
 .text_over_image {
     position: absolute;
     margin: auto;
