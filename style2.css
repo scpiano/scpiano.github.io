@@ -177,6 +177,7 @@ h1 {
     box-shadow: 0 0 8px rgba(0, 0, 0, .8);
     -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
     -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    z-index: 1
 }
 
 .black-circle {
@@ -245,17 +246,6 @@ h6 {
 }
 
 .text_over_image {
-    position: absolute;
-    margin: auto;
-    top: 0;
-    left:0;
-    right:0;
-    bottom:0;
-    color:#fff;
-    height:65px;
-}
-
-.text_over_image2 {
     position: absolute;
     margin: auto;
     top: 0;
