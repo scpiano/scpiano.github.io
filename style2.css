@@ -179,8 +179,21 @@ h1 {
     -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 }
 
-/* Images and Placements */
+.circular-northeastern {
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    background: url("images/northeastern.png");
+    background-size: 100% 100%;
+    background-position: 0px 0px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
 
+/* Images and Placements */
 h1 {      /* rectangle */
 	width: 300px;
 	height: 130px;
@@ -197,10 +210,10 @@ h1 div {
 
 h2 {      
 	width: 200px;
-	height: 100px;
+	height: 75px;
 	text-align: center;
 	position: relative;
-	margin: 0;
+	margin: auto;
 	border: 0;
 	background: black;
 }
@@ -212,10 +225,10 @@ h2 div {
 
 h4 {      
 	width: 250px;
-	height: 40px;
+	height: 50px;
 	text-align: center;
 	position: relative;
-	margin: 0;
+	margin: auto;
 	border: 0;
 	background: black;
 }
@@ -253,5 +266,5 @@ h6 {
     right:0;
     bottom:0;
     color:#fff;
-    height:10px;
+    height:50%;
 }
