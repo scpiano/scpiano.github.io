@@ -16,6 +16,7 @@ background: url(images/new-york-black-and-white-wallpaper-13.svg);
 -moz-background-size: cover;
 -o-background-size: cover;
 background-size: cover;
+z-index: -2;
 }
 
 
