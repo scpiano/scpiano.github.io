@@ -247,7 +247,7 @@ h6 {
 }
 
 .text_over_image {
-    position: relative;
+    position: absolute;
     margin: auto;
     top: 0;
     left:0;
