@@ -10,10 +10,6 @@ body {
    min-height: 100%;
    width: 100%;
    color: white;
-	
-    background-image: url(images/The-Hamptons-Long-Island-New-York.svg),linear-gradient(to bottom, #00242b, white);
-    background-repeat: no-repeat;
-    background-attachment: scroll;
 }
 
 
@@ -252,4 +248,17 @@ h6 {
     bottom:0;
     color:#fff;
     height: 50%;
+}
+
+/* backgrounds */
+.background-LI {
+	background: url(images/The-Hamptons-Long-Island-New-York.svg) no-repeat scroll;
+	background-size: cover;
+	z-index -10;
+}
+
+.background-gradient {
+	background: linear-gradient(to bottom, #00242b, white) no-repeat scroll;
+	background-size: cover;
+	z-index: -10;
 }
