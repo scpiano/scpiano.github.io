@@ -11,12 +11,12 @@ body {
    width: 100%;
    color: white;
 	
-background: url(images/The-Hamptons-Long-Island-New-York.svg);
+background: url(images/The-Hamptons-Long-Island-New-York.svg) no-repeat top fixed, 
+	    linear-gradient (to bottom, #91E0ED, #FFFFFF) repeat-x;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
 background-size: cover;
-z-index: -2;
 }
 
 
