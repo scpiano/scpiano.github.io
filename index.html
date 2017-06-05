@@ -6,14 +6,15 @@
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 	<link rel="shortcut icon" href="images/league_of_legends_veigar_by_kawaii_chocolate-d6n9hi2.png" type="image/png">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 	<link href="style2.css" rel="stylesheet" type="text/css">
     	<script src="https://cdnjs.cloudflare.com/ajax/libs/trianglify/1.0.1/trianglify.min.js"></script>
     	<script src="background.js"></script>
-	
+	<!--bootstrap-->	
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	
 </head>
 	
@@ -23,25 +24,39 @@
 <div id="home">
 	<div class="container">
 	<!--Navbar-->
-		<nav class="navbar navbar-default navbar-fixed-top" id="navbar-triangle">
-			<div class="container-fluid">
-				<div class="navbar-header">
-			    		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-			        		<span class="icon-bar"></span>
-			        		<span class="icon-bar"></span>
-			        		<span class="icon-bar"></span>                        
-			      		</button>
-			      		<div class="navbar-brand" href="#"></div>
-			    	</div>
-			    	<div class="collapse navbar-collapse" id="myNavbar"> 
-			    		<ul class="nav navbar-nav navbar-right">
-				        	<li><a href="#education">Education</a></li>
-				        	<li><a href="#work-experience">Work Experience</a></li>
-				       	 	<li><a href="#project">Projects</a></li>				   
-			      		</ul>
-				</div>
-			</div>
-		</nav>
+		<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <i class="fa fa-play-circle"></i> <span class="light">Start</span> Bootstrap
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#download">Download</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
 	</div>
 </div>
 
