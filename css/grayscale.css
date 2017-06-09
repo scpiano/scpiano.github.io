@@ -34,6 +34,9 @@ p {
 .heavy {
   font-weight: bold;
 }
+.margin-delete {
+  margin: 0;
+}
 @media (min-width: 768px) {
   p {
     margin: 0 0 35px;
