@@ -31,6 +31,9 @@ p {
   font-size: 18px;
   line-height: 1.5;
 }
+.heavy {
+  font-weight: bold;
+}
 @media (min-width: 768px) {
   p {
     margin: 0 0 35px;
@@ -53,7 +56,7 @@ a:focus {
   font-weight: 400;
 }
 .heavy {
-  font-weight: 700;
+  font-weight: bold;
 }
 .navbar-custom {
   margin-bottom: 0;
