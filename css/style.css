@@ -238,12 +238,13 @@ a:focus {
   width: 100%;
   padding: 50px 0;
   color: white;
-  background: url(../images/USA_09562_Boston_Luca_Galuzzi_2007.svg) no-repeat center center scroll;
+  background: url(../images/long-island-sound-2015.svg) no-repeat center center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+  background-attachment: fixed;
 }
 #map {
   width: 100%;
@@ -330,10 +331,11 @@ body {
   width: 100%;
   padding: 50px 0;
   color: white;
-  background: url(../images/long-island-sound-2015.svg) no-repeat center center scroll;
+  background: url(../images/USA_09562_Boston_Luca_Galuzzi_2007.svg) no-repeat center center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+  background-attachment: fixed;
 }
